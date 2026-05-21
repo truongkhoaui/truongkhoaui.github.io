@@ -1,0 +1,57 @@
+@media (max-width: 1000px) {
+
+    body {
+        height: 80vh;
+        padding: 5%;
+        display: flex;
+        flex-direction: column;
+        background-image: url("wallpaper/dark.png");
+        background-size: cover;
+    }
+
+    /* Navigation */
+
+    .title {
+        display: flex;
+        justify-content: space-between;
+        background-image: url("logo.png");
+        background-size: 100px;
+        background-repeat: no-repeat;
+    }
+
+    .title .button-switch {
+        width: 100px;
+        height: 100px;
+        border-radius: 50px;
+        border: solid 4px white;
+        background-color: rgba(0,0,0,0.0);
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    .title h1, .title p {
+        display: none;
+    }
+
+    .socials ul {
+        list-style: none;
+        font-size: 75px;
+    }
+
+    .socials ul li {
+        display: inline-block;
+    }
+
+    .socials ul li p {
+        display: none;
+    }
+
+    .socials ul li a img {
+        width: 75px;
+        padding-right: 0;
+    }
+
+}
