@@ -1,0 +1,187 @@
+* {
+    margin: 0; padding: 0;
+    color: white;
+    font-family: 'Inter', sans-serif;
+}
+
+i {
+    font-size: 48px;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: rgb(24, 24, 24);
+    background-image: url('../wallpaper/mountain.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* Buttons */
+
+.button {
+    padding: 10px;
+    background-color: rgb(48, 48, 48);
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: rgb(54, 54, 54); 
+}
+
+.button:active {
+    background-color: rgb(42, 42, 42); 
+}
+
+.button-fills {
+    padding: 20px;
+    background-color: rgba(0,0,0,0);
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    text-decoration: none;
+}
+
+.button-fills:hover {
+    background-color: rgba(255, 255, 255, 0.05); 
+}
+
+.button-fills:active {
+    background-color: rgba(255, 255, 255, 0.01); 
+}
+
+.button-fills:not(:last-child) {
+    border-right: solid 1px rgb(60, 60, 60);
+}
+
+.app {
+    box-sizing: border-box;
+    width: 1000px;
+    height: 700px;
+    background-color: rgba(36, 36, 36, 0.9);
+    border-radius: 12px;
+    border: solid 1px rgb(72, 72, 72);
+    box-shadow: 0 0 15px rgba(0,0,0,0.5);
+}
+
+.title {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    box-sizing: border-box;
+    border-bottom: solid 1px rgb(60, 60, 60);
+}
+
+.navbar {
+    display: grid;
+    width: 100%;
+    box-sizing: border-box;
+    border-bottom: solid 1px rgb(60, 60, 60);
+    grid-template-columns: repeat(3, 1fr);
+    box-shadow: 0 10px 10px rgba(0,0,0,0.2);
+}
+
+/* Contents */
+
+.content {
+    padding: 20px;
+    line-height: 1.6;
+    max-height: 517px;
+    overflow-y: auto;  
+}
+
+/* For about page */
+
+
+.box-image {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 6px;
+    margin: 20px 0 20px 0;
+}
+
+.box-image li {
+    background-color: rgb(36, 36, 36);
+    border: solid 1px rgb(72, 72, 72);
+    border-radius: 6px;
+    list-style: none;
+    padding: 20px;
+    box-shadow: 0 10px 10px rgba(0,0,0,0.2);
+}
+
+/* For artworks page */
+
+.full-image {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 6px;
+    margin: 20px 0 20px 0;
+    list-style: none;
+}
+
+.full-image li {
+    position: relative;
+    border-radius: 6px;
+    overflow: hidden;
+    height: 300px;
+}
+
+.full-image li .full-image-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    box-sizing: border-box;
+    opacity: 0;
+}
+
+.full-image li:hover .full-image-overlay {
+    opacity: 1;
+}
+
+/* For socials page */
+
+.box-socials {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 6px;
+    margin: 20px 0 20px 0;
+}
+
+.box-socials li {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    background-color: rgb(36, 36, 36);
+    border: solid 1px rgb(72, 72, 72);
+    border-radius: 6px;
+    list-style: none;
+    padding: 20px;
+    box-shadow: 0 10px 10px rgba(0,0,0,0.2);
+}
+
+.box-socials a {
+    text-decoration: none;
+}
+
+.box-socials a li:hover {
+    background-color: rgb(255, 0, 51);
+}
+
+.box-socials a li:active {
+    background-color: rgba(255, 0, 51, 0.7);
+}
