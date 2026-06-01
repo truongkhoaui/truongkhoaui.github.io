@@ -38,7 +38,7 @@ body {
     background-color: rgb(42, 42, 42); 
 }
 
-.button-fills {
+.button-grid {
     padding: 20px;
     background-color: rgba(0,0,0,0);
     border: none;
@@ -50,15 +50,15 @@ body {
     text-decoration: none;
 }
 
-.button-fills:hover {
+.button-grid:hover {
     background-color: rgba(255, 255, 255, 0.05); 
 }
 
-.button-fills:active {
+.button-grid:active {
     background-color: rgba(255, 255, 255, 0.01); 
 }
 
-.button-fills:not(:last-child) {
+.button-grid:not(:last-child) {
     border-right: solid 1px rgb(60, 60, 60);
 }
 
@@ -70,6 +70,8 @@ body {
     border-radius: 12px;
     border: solid 1px rgb(72, 72, 72);
     box-shadow: 0 0 15px rgba(0,0,0,0.5);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
 }
 
 .title {
@@ -147,22 +149,28 @@ body {
     padding: 20px;
     box-sizing: border-box;
     opacity: 0;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
 }
 
 .full-image li:hover .full-image-overlay {
     opacity: 1;
 }
 
+.full-image li:active .full-image-overlay {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
 /* For socials page */
 
-.box-socials {
+.box-image-inline {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 6px;
     margin: 20px 0 20px 0;
 }
 
-.box-socials li {
+.box-image-inline li {
     display: flex;
     align-items: center;
     gap: 12px;
@@ -174,14 +182,14 @@ body {
     box-shadow: 0 10px 10px rgba(0,0,0,0.2);
 }
 
-.box-socials a {
+.box-image-inline a {
     text-decoration: none;
 }
 
-.box-socials a li:hover {
+.box-image-inline a li:hover {
     background-color: rgb(255, 0, 51);
 }
 
-.box-socials a li:active {
+.box-image-inline a li:active {
     background-color: rgba(255, 0, 51, 0.7);
 }
