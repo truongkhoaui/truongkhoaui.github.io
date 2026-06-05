@@ -87,7 +87,7 @@ body {
     width: 100%;
     box-sizing: border-box;
     border-bottom: solid 1px rgb(60, 60, 60);
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     box-shadow: 0 10px 10px rgba(0,0,0,0.2);
 }
 
@@ -182,6 +182,8 @@ body {
     box-shadow: 0 10px 10px rgba(0,0,0,0.2);
 }
 
+/* Social media buttons */
+
 .box-image-inline a {
     text-decoration: none;
 }
@@ -208,4 +210,20 @@ body {
 
 .box-image-inline .x li:active {
     background-color: rgba(0, 0, 0, 0.7);
+}
+
+
+
+/* Blogs */
+
+.box-text li {
+    display: flex;
+    align-items: center;
+    background-color: rgb(36, 36, 36);
+    border: solid 1px rgb(72, 72, 72);
+    border-radius: 6px;
+    list-style: none;
+    padding: 20px;
+    box-shadow: 0 10px 10px rgba(0,0,0,0.2);
+    margin: 0 0 6px 0;
 }
