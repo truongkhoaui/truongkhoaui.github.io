@@ -18,6 +18,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    background-attachment: fixed;
 }
 
 /* Buttons */
@@ -215,6 +216,11 @@ body {
 
 
 /* Blogs */
+
+.box-text {
+    display: grid;
+    margin: 20px 0 0 0;
+}
 
 .box-text li {
     display: flex;
