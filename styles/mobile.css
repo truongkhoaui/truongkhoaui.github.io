@@ -32,6 +32,10 @@
         border-right: solid 1px rgb(60, 60, 60);
     }
 
+    .button-grid-text {
+        display: none;
+    }
+
     .app {
         width: 100%;
         height: 100%;
@@ -51,7 +55,8 @@
 
     .content {
         max-height: none;
-        overflow-y: visible;  
+        height: 81vh;
+        overflow-y: auto;  
     }
 
     .full-image {
