@@ -73,6 +73,8 @@ body {
     box-shadow: 0 0 15px rgba(0,0,0,0.5);
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
+    display: flex;
+    flex-direction: column;
 }
 
 .title {
@@ -97,7 +99,6 @@ body {
 .content {
     padding: 20px;
     line-height: 1.6;
-    max-height: 517px;
     overflow-y: auto;  
 }
 
