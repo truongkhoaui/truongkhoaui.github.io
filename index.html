@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
     <link href="styles/fullscreen.css" rel="stylesheet">
     <link href="styles/mobile.css" rel="stylesheet">
     <link href="https://rsms.me/" rel="preconnect" >
@@ -14,12 +15,25 @@
 
     <div class="app">
         
-        <div class="title">
-            <h1>truongkhoa</h1>
+        <div id="hometitle" class="title">
+            <p style="color: rgba(255, 255, 255, 0.5)">truongkhoa</p>
+            <h1>Home</h1>
+        </div>
+        <div id="artworkstitle" class="title hidden">
+            <p style="color: rgba(255, 255, 255, 0.5)">truongkhoa</p>
+            <h1>Artworks</h1>
+        </div>
+        <div id="socialstitle" class="title hidden">
+            <p style="color: rgba(255, 255, 255, 0.5)">truongkhoa</p>
+            <h1>Socials</h1>
+        </div>
+        <div id="blogstitle" class="title hidden">
+            <p style="color: rgba(255, 255, 255, 0.5)">truongkhoa</p>
+            <h1>Blogs</h1>
         </div>
 
         <div class="navbar">
-            <a class="button-grid" href="https://truongkhoaui.github.io">
+            <button id="homebutton" class="button-grid">
                 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
                 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
@@ -42,22 +56,22 @@
                     inkscape:pageopacity="0.0"
                     inkscape:pagecheckerboard="0"
                     inkscape:deskcolor="#d1d1d1" /><inkscape:clipboard
-                    style="fill:#ffffff;fill-opacity:1;stroke-width:0.333333;stroke-linejoin:round"
-                    min="359.99996,896"
-                    max="375.99929,911.99997"
-                    geom-min="359.99996,896"
-                    geom-max="375.99929,911.99997"
+                    style="fill:#ffffff;fill-opacity:1;stroke-width:0.576653;stroke-linejoin:round"
+                    min="359.99996,224"
+                    max="375.99929,239.99997"
+                    geom-min="359.99996,224"
+                    geom-max="375.99929,239.99997"
                     page-min="0,0"
                     page-max="599.74797,1375.5533" /><g
                     id="layer1"
-                    transform="translate(-359.99996,-896)"><path
-                    d="m 367.99997,896 a 2.0000079,2.0000003 0 0 0 -0.52474,0.0703 2.0000079,2.0000003 0 0 0 -0.4082,0.16081 1.9999987,2.0000003 0 0 0 -0.28776,0.1888 2.0000079,2.0000003 0 0 0 -0.0762,0.0573 l -0.22591,0.22657 -5.47721,5.47721 -0.29362,0.29362 -0.23177,0.23177 A 1.9999995,2.0000011 0 0 0 359.99997,904 a 1.9999995,2.0000011 0 0 0 0,0.0143 v 0.58073 5.39584 a 2.0000079,2.0000003 0 0 1 0.008,-0.11068 2.0000079,2.0000003 0 0 0 -0.008,0.11978 2.0000079,2.0000003 0 0 0 0.26758,1 2.0000079,2.0000003 0 0 0 0.73242,0.73177 2.0000079,2.0000003 0 0 0 1,0.26823 2.0000079,2.0000003 0 0 0 10e-4,0 h 1.99866 1 v -1 -5 -1 h 1 4 1 v 1 5 1 h 0.99999 1.9987 a 2.0000079,2.0000003 0 0 0 0.001,0 2.0000079,2.0000003 0 0 0 1,-0.26823 2.0000079,2.0000003 0 0 0 0.73174,-0.73177 2.0000079,2.0000003 0 0 0 0.26823,-1 2.0000079,2.0000003 0 0 0 -0.01,-0.14844 2.0000079,2.0000003 0 0 1 0.01,0.14258 V 904.59505 904 a 1.9999995,2.0000011 0 0 0 -0.47526,-1.29427 l -0.23047,-0.23047 -0.29427,-0.29427 -5.47721,-5.47721 -0.22656,-0.22657 a 2.0000079,2.0000003 0 0 0 -0.77148,-0.4069 A 2.0000079,2.0000003 0 0 0 367.99997,896 Z"
-                    style="fill:#ffffff;fill-opacity:1;stroke-width:0.333333;stroke-linejoin:round"
-                    id="path14" /></g></svg>
+                    transform="translate(-359.99996,-224)"><path
+                    d="m 367.99997,224 a 2.0000079,2.0000003 0 0 0 -0.52474,0.0703 2.0000079,2.0000003 0 0 0 -0.4082,0.16081 1.9999987,2.0000003 0 0 0 -0.28776,0.1888 2.0000079,2.0000003 0 0 0 -0.0762,0.0573 l -0.22591,0.22657 -5.47721,5.47721 -0.29362,0.29362 -0.23177,0.23177 A 1.9999995,2.0000011 0 0 0 359.99997,232 a 1.9999995,2.0000011 0 0 0 0,0.0143 v 0.58073 5.39584 a 2.0000079,2.0000003 0 0 1 0.008,-0.11068 2.0000079,2.0000003 0 0 0 -0.008,0.11978 2.0000079,2.0000003 0 0 0 0.26758,1 2.0000079,2.0000003 0 0 0 0.73242,0.73177 2.0000079,2.0000003 0 0 0 1,0.26823 2.0000079,2.0000003 0 0 0 10e-4,0 h 1.99866 1 6 0.99999 1.9987 a 2.0000079,2.0000003 0 0 0 0.001,0 2.0000079,2.0000003 0 0 0 1,-0.26823 2.0000079,2.0000003 0 0 0 0.73174,-0.73177 2.0000079,2.0000003 0 0 0 0.26823,-1 2.0000079,2.0000003 0 0 0 -0.01,-0.14844 2.0000079,2.0000003 0 0 1 0.01,0.14258 V 232.59505 232 a 1.9999995,2.0000011 0 0 0 -0.47526,-1.29427 l -0.23047,-0.23047 -0.29427,-0.29427 -5.47721,-5.47721 -0.22656,-0.22657 a 2.0000079,2.0000003 0 0 0 -0.77148,-0.4069 A 2.0000079,2.0000003 0 0 0 367.99997,224 Z m 0,1 a 0.99999903,0.99999983 0 0 1 0.62174,0.2168 0.99999903,0.99999983 0 0 1 0.16146,0.16146 l 1.14648,1.14648 3.54557,3.54557 1.14714,1.14714 a 0.99999903,0.99999983 0 0 1 0.16016,0.16015 0.99999903,0.99999983 0 0 1 0.21744,0.6224 v 1.73177 2.53646 V 238 a 0.99999903,0.99999983 0 0 1 -1,1 h -1.73242 -0.26758 v -6 a 0.99999903,0.99999983 0 0 0 -0.99999,-1 h -5.99544 a 0.99999903,0.99999983 0 0 0 -0.005,0 0.99999903,0.99999983 0 0 0 -1,1 v 6 h -0.26822 -1.73177 a 0.99999903,0.99999983 0 0 1 -1,-0.99023 0.99999903,0.99999983 0 0 1 0,-0.01 0.99999903,0.99999983 0 0 1 0,-0.01 v -1.722 -2.53646 -1.72135 a 0.99999903,0.99999983 0 0 1 0,-0.0104 0.99999903,0.99999983 0 0 1 0,-0.01 0.99999903,0.99999983 0 0 1 0.2168,-0.61198 0.99999903,0.99999983 0 0 1 0.16081,-0.16081 l 1.14713,-1.14713 3.54557,-3.54557 1.14649,-1.14649 A 0.99999903,0.99999983 0 0 1 367.3778,225.21681 0.99999903,0.99999983 0 0 1 367.99997,225 Z m -3,8 h 1 4 1 v 1 5 h -6 v -5 z"
+                    style="fill:#ffffff;fill-opacity:1;stroke-width:0.576653;stroke-linejoin:round"
+                    id="path44" /></g></svg>
                 <p class="button-grid-text">Home</p>
-            </a>
+            </button>
 
-            <a class="button-grid" href="artworks.html">
+            <button id="artworksbutton" class="button-grid">
                 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
                 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
@@ -110,9 +124,9 @@
                     rx="1.0109411"
                     ry="1.0113156" /></g></svg>
                 <p class="button-grid-text">Artworks</p>
-            </a>
+            </button>
 
-            <a class="button-grid" href="socials.html">
+            <button id="socialsbutton" class="button-grid">
 
                 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
                 <!-- Created with Inkscape (http://www.inkscape.org/) -->
@@ -151,9 +165,9 @@
                     style="fill:#ffffff;fill-opacity:1;stroke-width:0.347223;stroke-linejoin:round"
                     id="path209" /></g></svg>
                 <p class="button-grid-text">Socials</p>
-            </a>
+            </button>
 
-            <a class="button-grid" href="blogs.html">
+            <button id="blogsbutton" class="button-grid">
                 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
                 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
@@ -189,22 +203,123 @@
                     style="fill:#ffffff;fill-opacity:1;stroke-width:0.163917;stroke-linejoin:round"
                     id="path10" /></g></svg>
                 <p class="button-grid-text">Blogs</p>
-            </a>
+            </button>
 
         </div>
 
-        <div class="content">
+
+        <!-- Home -->
+
+        <div id="homepage" class="content">
             <h2>Hello, welcome to my website!</h2>
             <p>I'm truongkhoa, a 16y.o. student from 🇻🇳 Vietnam who do graphic design and code :)</p>
  
             <p>You can see some of my artworks, or contact me through the "Socials" tab.</p>
             <div style="height: 12px;"></div>
             <p style="color: rgba(255, 255, 255, 0.5);">Since 2021.</p>
+        </div>
 
+
+
+        <!-- Artworks -->
+
+        <div id="artworkspage" class="content hidden">
+            <ul class="full-image">
+                <li>
+                    <a href="artworks/win7remake.png">
+                        <img src="artworks/win7remake.png" width="100%" style="height: 300px; object-fit: cover; border-radius: 6px;">
+                        <div class="full-image-overlay">
+                            <p style="font-size: 24px;"><strong>Windows 7 Remake</strong></p>
+                            <p>2022</p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="artworks/sphere.jpeg">
+                        <img src="artworks/sphere.jpeg" width="100%" style="height: 300px; object-fit: cover; border-radius: 6px;">
+                        <div class="full-image-overlay">
+                            <p style="font-size: 24px;"><strong>Sphere</strong></p>
+                            <p>2023</p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="artworks/rikkacube.png">
+                        <img src="artworks/rikkacube.png" width="100%" style="height: 300px; object-fit: cover; border-radius: 6px;">
+                        <div class="full-image-overlay">
+                            <p style="font-size: 24px;"><strong>Rikka as a sticker</strong></p>
+                            <p>2025</p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="artworks/flower.png">
+                        <img src="artworks/flower.png" width="100%" style="height: 300px; object-fit: cover; border-radius: 6px;">
+                        <div class="full-image-overlay">
+                            <p style="font-size: 24px;"><strong>Flower</strong></p>
+                            <p>2026</p>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+
+        <!-- Socials -->
+
+        <div id="socialspage" class="content hidden">
+            <ul class="box-image-inline">
+                <li><i class="fa-brands fa-discord"></i><div>Discord<br>@truongkhoa</div></li>
+                <a class="youtube" href="https://youtube.com/@truongkhoaui">
+                    <li><i class="fa-brands fa-youtube"></i><div>YouTube<br>@truongkhoaui</div></li>
+                </a>
+                <a class="bsky" href="https://bsky.app/profile/truongkhoa.bsky.social">
+                    <li><i class="fa-brands fa-bluesky"></i><div>Bluesky<br>truongkhoa.bsky.social</div></li>
+                </a>
+                <a class="x" href="https://x.com/truongkhoaui">
+                    <li><i class="fa-brands fa-x-twitter"></i><div>X (Twitter)<br>@truongkhoaui</div></li>
+                </a>
+            </ul>
+        </div>
+
+
+
+        <!-- Blogs -->
+
+        <div id="blogspage" class="content hidden">
+            <ul class="box-text">
+
+                <li>
+                    <div>
+                        <h2>Well I just created this page</h2>
+                        <p>Older posts are saved in local.</p>
+                        <p style="color: rgba(255, 255, 255, 0.5); padding-top: 12px;">05/06/2026</p>
+                    </div>
+                </li>
+
+                <li>
+                    <div>
+                        <h2>Switched to Fedora</h2>
+                        <p>Well... after hearing Ubuntu is adding some AI features, I decided to switch it, won't switch to Arch because laptop I'm using is for family.</p>
+                        <p style="color: rgba(255, 255, 255, 0.5); padding-top: 12px;">05/06/2026</p>
+                    </div>
+                </li>
+
+                <li>
+                    <div>
+                        <h2>Hello!</h2>
+                        <p>My first post. :D</p>
+                        <p style="color: rgba(255, 255, 255, 0.5); padding-top: 12px;">01/06/2026</p>
+                    </div>
+                </li>
+
+            </ul>
         </div>
 
     </div>
 
-    
 </body>
+
+<script src="script.js"></script>
+
 </html>
