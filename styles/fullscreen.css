@@ -54,6 +54,7 @@ body {
     justify-content: center;
     gap: 8px;
     text-decoration: none;
+    transition: background-color 0.1s ease;
 }
 
 .button-grid:hover {
@@ -80,7 +81,21 @@ body {
     -webkit-backdrop-filter: blur(10px);
     display: flex;
     flex-direction: column;
+    animation: startApp 1s cubic-bezier(0.1, 1, 0.1, 1) forwards;
 }
+
+@keyframes startApp {
+  from {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+
 
 .title {
     padding: 20px;
@@ -106,7 +121,6 @@ body {
 }
 
 /* For about page */
-
 
 .box-image {
     display: grid;
@@ -156,6 +170,7 @@ body {
     opacity: 0;
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
+    transition: opacity 0.1s ease, background-color 0.1s ease;
 }
 
 .full-image li:hover .full-image-overlay {
@@ -172,7 +187,7 @@ body {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 6px;
-    margin: 20px 0 20px 0;
+    margin: 20px 0 20px 0;    
 }
 
 .box-image-inline li {
@@ -185,12 +200,14 @@ body {
     list-style: none;
     padding: 20px;
     box-shadow: 0 10px 10px rgba(0,0,0,0.2);
+    transition: background-color 0.1s ease; 
 }
 
 /* Social media buttons */
 
 .box-image-inline a {
     text-decoration: none;
+    transition: background-color 0.1s ease;
 }
 
 .box-image-inline .youtube li:hover {
