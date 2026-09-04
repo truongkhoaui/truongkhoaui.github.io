@@ -219,11 +219,11 @@ body {
 }
 
 .box-image-inline .instagram li:hover {
-    background-color: rgb(100, 50, 100);
+    background-color: rgb(255, 0, 105);
 }
 
 .box-image-inline .instagram li:active {
-    background-color: rgba(100, 50, 100, 0.7);
+    background-color: rgba(255, 0, 105, 0.7);
 }
 
 
