@@ -218,22 +218,13 @@ body {
     background-color: rgba(255, 0, 51, 0.7);
 }
 
-.box-image-inline .bsky li:hover {
-    background-color: rgb(1, 66, 255);
+.box-image-inline .instagram li:hover {
+    background-color: rgb(100, 50, 100);
 }
 
-.box-image-inline .bsky li:active {
-    background-color: rgba(1, 66, 255, 0.7);
+.box-image-inline .instagram li:active {
+    background-color: rgba(100, 50, 100, 0.7);
 }
-
-.box-image-inline .x li:hover {
-    background-color: rgb(0, 0, 0);
-}
-
-.box-image-inline .x li:active {
-    background-color: rgba(0, 0, 0, 0.7);
-}
-
 
 
 /* Blogs */
